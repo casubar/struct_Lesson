@@ -12,7 +12,7 @@ namespace UnitTest1_struct_Lesson
 		
 		TEST_METHOD(TestMethod1)
 		{
-			Assert::AreEqual(total(2, 3), 1);
+			Assert::AreEqual(total(2, 3), 5);
 		}
 
 	};

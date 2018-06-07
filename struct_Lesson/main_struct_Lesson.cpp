@@ -7,16 +7,28 @@
 #include <string>
 
 
+const int ROW = 3;
 
 
 int main()
 {
 	char p;
 
-	structType sd;
+	studentType stud1;
+	studentType newStudent[5];
+
+	testSettingsType copper[ROW];
 	
-	getData(sd);
-	std::cout << sd.a << " " << sd.b;
+	
+	//getStudentData(stud1);
+	//getNewStudData(newStudent);
+	//getTestSettings(copper);
+
+	employeeType newEmployee[ROW];
+	getEmployeeName(newEmployee);
+
+
+	
 	
 	std::cout << std::endl;
 	std::cout << "Press Any Key...";
